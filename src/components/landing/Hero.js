@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center">
       <Link to="/">
-        <span className="sr-only">Reactive Resume</span>
+        <span className="sr-only">TEK4VN_CV</span>
         <Logo className="shadow-lg" size="256px" />
       </Link>
 

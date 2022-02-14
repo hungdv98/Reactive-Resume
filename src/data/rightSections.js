@@ -4,7 +4,7 @@ import {
   MdFontDownload,
   MdFormatSize,
   MdImportExport,
-  MdInfo,
+  // MdInfo,
   MdSettings,
   MdStyle,
 } from 'react-icons/md';
@@ -38,8 +38,8 @@ export default [
     id: 'settings',
     icon: MdSettings,
   },
-  {
-    id: 'about',
-    icon: MdInfo,
-  },
+  // {
+  //   id: 'about',
+  //   icon: MdInfo,
+  // },
 ];

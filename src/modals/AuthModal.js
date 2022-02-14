@@ -41,7 +41,9 @@ const AuthModal = () => {
 
   const getTitle = () =>
     user
-      ? t('modals.auth.welcome', { name: user.displayName || 'Agent 47' })
+      ? t('modals.auth.welcome', {
+          name: user.displayName || 'Ẩn danh',
+        })
       : t('modals.auth.whoAreYou');
 
   const getMessage = () =>

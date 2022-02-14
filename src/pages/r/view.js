@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet';
-import { Link, navigate } from '@reach/router';
+// import { Link, navigate } from '@reach/router';
+import { navigate } from '@reach/router';
 import { toast } from 'react-toastify';
 import { useTranslation } from 'react-i18next';
 import React, { memo, useContext, useEffect, useMemo, useState } from 'react';
@@ -75,9 +76,9 @@ const ResumeViewer = ({ id }) => {
           {resume.metadata.template === 'celebi' && <Celebi data={resume} />}
         </div>
 
-        <p className={styles.footer}>
+        {/* <p className={styles.footer}>
           Built with <Link to="/">Reactive Resume</Link>
-        </p>
+        </p> */}
       </div>
     );
   });

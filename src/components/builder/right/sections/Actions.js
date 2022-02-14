@@ -28,7 +28,7 @@ const Actions = ({ id }) => {
 
   const getSharableUrl = () => {
     const shareId = state.id;
-    return `https://rxresu.me/r/${shareId}`;
+    return `http://localhost:8000/r/${shareId}`;
   };
 
   const handleOpenLink = () => {

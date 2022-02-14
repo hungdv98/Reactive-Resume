@@ -19,8 +19,8 @@ const Wrapper = ({ children }) => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>Reactive Resume</title>
-        <meta
+        <title>TEK4VN_CV</title>
+        {/* <meta
           name="description"
           content="A free and open source resume builder that’s built to make the mundane tasks of creating, updating and sharing your resume as easy as 1, 2, 3."
         />
@@ -31,7 +31,7 @@ const Wrapper = ({ children }) => {
           property="og:description"
           content="A free and open source resume builder that’s built to make the mundane tasks of creating, updating and sharing your resume as easy as 1, 2, 3."
         />
-        <meta property="og:image" content="http://rxresu.me/images/share.png" />
+        <meta property="og:image" content="http://rxresu.me/images/share.png" /> */}
       </Helmet>
 
       {children}

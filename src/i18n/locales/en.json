@@ -1,9 +1,9 @@
 {
   "shared": {
-    "appName": "Reactive Resume",
-    "shortDescription": "A free and open source resume builder.",
+    "appName": "TEK4VN_CV",
+    "shortDescription": "Xây dựng CV một cách đơn giản nhất.",
     "forms": {
-      "name": "Name",
+      "name": "Tên",
       "title": "Title",
       "subtitle": "Subtitle",
       "required": "required",
@@ -23,45 +23,45 @@
         "min": "Please enter at least {{number}} characters.",
         "dateRange": "End Date must be later than Start Date.",
         "email": "Must be a valid email address.",
-        "required": "This is a required field.",
+        "required": "Đây là thông tin bắt buộc.",
         "url": "Must be a valid URL."
       }
     },
     "buttons": {
-      "add": "Add",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "delete": "Delete",
-      "loading": "Loading...",
-      "confirmation": "Are you sure?",
-      "login": "Login",
-      "logout": "Logout"
+      "add": "Thêm",
+      "edit": "Sửa",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "loading": "đang thực thi...",
+      "confirmation": "Bạn vẫn muốn thực hiện?",
+      "login": "Đăng nhập",
+      "logout": "Đăng xuất"
     }
   },
   "landing": {
     "hero": {
-      "goToApp": "Go To App"
+      "goToApp": "Bắt đầu"
     }
   },
   "dashboard": {
     "title": "Dashboard",
-    "createResume": "Create Resume",
-    "editResume": "Edit Resume",
+    "createResume": "Tạo CV",
+    "editResume": "Sửa CV",
     "lastUpdated": "Last Updated {{timestamp}}",
     "toasts": {
-      "deleted": "{{name}} was deleted successfully"
+      "deleted": "{{name}} đã xóa thành công"
     },
     "buttons": {
-      "duplicate": "Duplicate",
-      "rename": "Rename"
+      "duplicate": "Tạo bản sao",
+      "rename": "Đổi tên"
     },
-    "helpText": "You are going to be creating a new resume from scratch, but first, let's give it a name. This can be the name of the role you want to apply for, or if you're making a resume for a friend, you could call it Alex's Resume."
+    "helpText": "Bạn sẽ tạo một CV mới từ đầu, nhưng trước hết, hãy đặt tên cho CV này. Đây có thể là vị trí bạn muốn ứng tuyển hoặc nếu bạn đang làm CV cho một người bạn, ví dụ như: CV của Giang."
   },
   "builder": {
     "toasts": {
       "formErrors": "You might need to fill up all the required fields before submitting this form.",
       "doesNotExist": "The resume you were looking for does not exist anymore... or maybe it never did?",
-      "loadDemoData": "Not sure where to begin? Try loading demo data to see what Reactive Resume has to offer.",
+      "loadDemoData": "Nếu chưa biết bắt đầu từ đâu, bạn có thể tham khảo dữ liệu dựng sẵn của chúng tôi.",
       "printError": "The cloud function is running into some trouble, please try again later or use the browser print feature."
     },
     "sections": {
@@ -154,12 +154,12 @@
         "button": "Export"
       },
       "share": {
-        "heading": "Share Your Resume",
-        "text": "The link below will be accessible publicly if you choose to share it, viewers would see the latest version of your resume at any time."
+        "heading": "Chia sẻ CV",
+        "text": "Bạn có thể sử dụng link dưới đây để chia sẻ CV."
       },
       "loadDemoData": {
-        "text": "Unclear on what to do with a fresh blank page? Load some demo data to see how a resume should look and you can start editing from there.",
-        "button": "Load Demo Data"
+        "text": "Nếu chưa rõ nên bắt đầu từ đâu, bạn có thể tải dữ liệu mẫu và thay đổi từ đây.",
+        "button": "Sử dụng dữ liệu mẫu"
       },
       "resetEverything": {
         "text": "Feels like you made too many mistakes? No worries, clear everything with just one click, but be careful if there are no backups.",
@@ -173,7 +173,7 @@
       "dangerZone": {
         "heading": "Danger Zone",
         "text": "If you would like to delete your account and erase all your resumes, it’s just one button away. Please be wary as this is an irreversible process.",
-        "button": "Delete Account"
+        "button": "Xóa tài khoản"
       }
     },
     "about": {
@@ -206,13 +206,13 @@
   },
   "modals": {
     "auth": {
-      "whoAreYou": "Who are you?",
-      "welcome": "Welcome, {{name}}!",
-      "loggedOutText": "Reactive Resume needs to know who you are so it can securely authenticate you into the app and show you only your information. Once you are in, you can start building your resume, editing it to add new skills or sharing it with the world!",
-      "loggedInText": "Awesome. Now that you've authenticated yourself, we can get on with the real reason you're here. Click on the Go to App button to start building your resume!",
+      "whoAreYou": "Bạn là ai?",
+      "welcome": "Xin chào, {{name}}!",
+      "loggedOutText": "TEK4VN cần biết bạn là ai để nó có thể xác thực vào ứng dụng một cách an toàn và chỉ hiển thị thông tin của bạn. Sau khi đăng nhập, bạn có thể bắt đầu xây dựng CV của mình, chỉnh sửa, thêm các kỹ năng mới và chia sẻ nó với mọi người!",
+      "loggedInText": "Tuyệt vời! Như vậy là bạn đã xác thực thành công, hãy ấn vào nút 'Bắt đầu' để tiến hành xây dựng CV cho bản thân.",
       "buttons": {
-        "google": "Sign in with Google",
-        "anonymous": "Sign in Anonymously"
+        "google": "Đăng nhập với Google",
+        "anonymous": "Đăng nhập ẩn danh"
       }
     },
     "import": {

@@ -1,7 +1,7 @@
 import { Element } from 'react-scroll';
 import React, { Fragment, memo, useContext } from 'react';
 import * as styles from './RightSidebar.module.css';
-import About from './sections/About';
+// import About from './sections/About';
 import Actions from './sections/Actions';
 import Colors from './sections/Colors';
 import FontSize from './sections/FontSize';
@@ -27,8 +27,6 @@ const getComponent = (id) => {
       return Actions;
     case 'settings':
       return Settings;
-    case 'about':
-      return About;
     case 'font-size':
       return FontSize;
     default:
